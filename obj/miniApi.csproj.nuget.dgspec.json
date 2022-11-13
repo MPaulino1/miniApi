@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Paulinho\\Desktop\\miniApi\\miniApi\\miniApi.csproj": {}
+    "C:\\Users\\Paulinho\\Desktop\\portfólio\\miniApi\\miniApi\\miniApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Paulinho\\Desktop\\miniApi\\miniApi\\miniApi.csproj": {
+    "C:\\Users\\Paulinho\\Desktop\\portfólio\\miniApi\\miniApi\\miniApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paulinho\\Desktop\\miniApi\\miniApi\\miniApi.csproj",
+        "projectUniqueName": "C:\\Users\\Paulinho\\Desktop\\portfólio\\miniApi\\miniApi\\miniApi.csproj",
         "projectName": "miniApi",
-        "projectPath": "C:\\Users\\Paulinho\\Desktop\\miniApi\\miniApi\\miniApi.csproj",
+        "projectPath": "C:\\Users\\Paulinho\\Desktop\\portfólio\\miniApi\\miniApi\\miniApi.csproj",
         "packagesPath": "C:\\Users\\Paulinho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paulinho\\Desktop\\miniApi\\miniApi\\obj\\",
+        "outputPath": "C:\\Users\\Paulinho\\Desktop\\portfólio\\miniApi\\miniApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Paulinho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,6 +1,3 @@
-﻿namespace miniApi.Models
-{
-    public class Todo
-    {
-    }
-}
+﻿namespace miniApi.Models;
+       public record Todo(Guid Id, string Title, bool Done);
+
